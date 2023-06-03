@@ -1,0 +1,47 @@
+/* G. Vikram Nethesh CH.EN.U4CSE22018*/
+body{
+    background-color: #B9D5FF;
+ } 
+
+.container {
+    width: 380px;
+    height: 575px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%; /* Precentage used instead of pixel values as in figma beacuse those only account for MacBook, and the centre varies for desktop */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+
+.container img{
+    margin-top: 38px;
+    margin-left: 38px;
+}
+
+.mainTextContainer {
+    width: 327px;
+    height: 60px;
+    margin-left: 24px;
+    margin-top: 26px;
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Outfit";
+  }
+
+.subTextContainer {
+    width: 275px;
+    height: 69px;
+    margin-left:53px;
+    margin-top:26px;
+    text-align: center;
+    color: #696969;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Outfit";
+}
+
+  
